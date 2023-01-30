@@ -1,21 +1,21 @@
 
-// function getApi(){
-//     fetch ("https://v2.nba.api-sports.io/games", {
-// 	    "method": "GET",
-// 	    "headers": {
-// 		    "x-rapidapi-host": " v2.nba.api-sports.io",
-// 		    "x-rapidapi-key": "899ae7af4ff633f8e77f19cb19037169"
-// 	    }
-//     })
-//     .then(response => {
-// 	console.log(response.json());
-//     })
-//     .catch(err => {
-// 	console.log(err);
-//     });
-// }
+function getApi(){
+    fetch ("https://v2.nba.api-sports.io/games?league=12&season=2023", {
+	    "method": "GET",
+	    "headers": {
+		    "x-rapidapi-host": "v1.basketball.api-sports.io",
+		    "x-rapidapi-key": "899ae7af4ff633f8e77f19cb19037169"
+	    }
+    })
+    .then(response => {
+	console.log(response.json());
+    })
+    .catch(err => {
+	console.log(err);
+    });
+}
 
-// getApi();
+getApi();
 
 
 
