@@ -24,6 +24,31 @@
     
 
   }
+  
+  .card {
+    background-color: rgb(57, 62, 70, 0.7);
+  }
+
+  .card.small .card-image {
+    max-height: 100%;
+    
+}
+
+#gif-btn {
+  padding: 0px;
+
+}
+
+  .waves-effect {
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .btn {
+    background-color: #f96d00;
+
+  }
 
   .row {
     display: flex;

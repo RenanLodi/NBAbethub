@@ -1,6 +1,5 @@
 var currentDate = dayjs().format('YYYY-MM-DD');
 var liveScores = document.querySelector(".card-content");
-var odds = document.querySelector("#odds");
 
 // GET ALL NBA GAMES
 function getGames(){
@@ -48,10 +47,8 @@ function getGames(){
 
 // getGames();
 
-var teamName;
-
 function getGifApi(){
-    fetch ("https://api.giphy.com/v1/gifs/search?api_key=F6a8XYTRkUMdxsTcwsoz13tuoKcObSik&q="+ teamName +"&limit=25&offset=0&rating=pg-13&lang=en")
+    fetch ("https://api.giphy.com/v1/gifs/search?api_key=F6a8XYTRkUMdxsTcwsoz13tuoKcObSik&q=nba-basketball&limit=25&offset=0&rating=pg-13&lang=en")
     
         .then(response => {
             
@@ -60,11 +57,24 @@ function getGifApi(){
             })
         .then(data => {
             console.log(data);
+            
+            var gif = document.querySelector(".gif-container");
+            gif.src = data.data[Math.floor(Math.random() * 25)].images.original.url;
+            
+            $(".btn").click(function(event){
+                event.preventDefault();
+                gif.src = data.data[Math.floor(Math.random() * 25)].images.original.url;
+        
+        
+              });
+           
+            
 
         })
         .catch(err => {
         	console.log(err);
             });
+
     }
 
 
