@@ -31,6 +31,7 @@ function getGames(){
             liveScores.appendChild(line);
             var gameScores = document.querySelector("#game"+i);
 
+            // data.response[i].status.long -> What Quarter game is in
 
             teamNames.textContent = data.response[i].teams.home.name + "  VS.  " + data.response[i].teams.away.name;
             gameScores.textContent = data.response[i].scores.away.total + " - " + data.response[i].scores.home.total;
