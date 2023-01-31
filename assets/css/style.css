@@ -5,7 +5,8 @@
   
   body {
     font-family: 'Lora', serif;
-    background-image: url(https://images.unsplash.com/photo-1563506644863-444710df1e03?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTN8fHxlbnwwfHx8fA%3D%3D&w=1000&q=80);
+    /* background-image: url(https://images.unsplash.com/photo-1563506644863-444710df1e03?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTN8fHxlbnwwfHx8fA%3D%3D&w=1000&q=80); */
+    background-image: url(../images/hardwood.jpg);
     background-size: auto;
   }
   .header {
@@ -23,6 +24,23 @@
     
 
   }
+
+  .row {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+  }
+
+  .row .col.s12 {
+    margin-left: 0px;
+    
+  }
+
+  .row .col.m7 {
+    margin-left: 0px;
+
+  }
+
   .column {
     float: left;
     width: 30%;
@@ -37,6 +55,11 @@
     cursor: pointer;
     transition: all 0.5 ease-in;
     color: white;
+  }
+
+  #live-scores {
+    font-size: 18px;
+
   }
   .column:hover{
     background: blue;
@@ -59,7 +82,7 @@
     margin-left: 50px;
     font-size: 30px;
     cursor: pointer;
-    background-image: url(https://ktswblog.net/wp-content/uploads/2014/04/nba_playoffs_wallpaper_win_or_go_home_2013.png);
+    background-color: #f96d00;
     color: white;
 }
 
