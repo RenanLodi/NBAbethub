@@ -8,6 +8,7 @@
     /* background-image: url(https://images.unsplash.com/photo-1563506644863-444710df1e03?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTN8fHxlbnwwfHx8fA%3D%3D&w=1000&q=80); */
     background-image: url(../images/hardwood.jpg);
     background-size: auto;
+    height: 100vh;
   }
   .header {
     background-color: darkgray;
