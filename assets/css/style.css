@@ -1,0 +1,76 @@
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Lora', serif;
+    background-image: url(https://images.unsplash.com/photo-1563506644863-444710df1e03?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTN8fHxlbnwwfHx8fA%3D%3D&w=1000&q=80);
+    background-size: auto;
+  }
+  .header {
+    background-color: darkgray;
+    padding: 20px;
+    text-align: center;
+    font-size: 35px;
+    height: 400px;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    border-radius: 15px;
+    border-style: none;
+    background-image: url(https://www.gamblingsites.net/app/uploads/2019/10/Golden-State-Warriors-vs-Toronto-Raptors-Background-NBA-Western-and-Eastern-Conference-Logos.jpg);
+    
+
+  }
+  .column {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    height: 500px;
+    border-radius: 15px;
+    justify-content: space-evenly;
+    font-size: 35px;
+    margin: 17px;
+    flex: content;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.5 ease-in;
+    color: white;
+  }
+  .column:hover{
+    background: blue;
+
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .footer {
+    padding: 10px;
+    text-align: top;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    height: 200px;
+    border-radius: 30px;
+    margin-left: 50px;
+    font-size: 30px;
+    cursor: pointer;
+    background-image: url(https://ktswblog.net/wp-content/uploads/2014/04/nba_playoffs_wallpaper_win_or_go_home_2013.png);
+    color: white;
+}
+
+  @media (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+.display-3{
+    justify-content: center;
+    display: flex;
+    font-size: 50px;
+    color: aliceblue;
+}
