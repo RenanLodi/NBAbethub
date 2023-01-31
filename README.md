@@ -1,24 +1,25 @@
-# NBAbethub
-NBAbethub Project1 Group1
+# NBA betHub
+NBA betHub Project #1 (Group 1)
 
 **PROJECT DESCRIPTION**:   
-Check Real Time Live NBA scores and betting odds
+	Check Real Time Live NBA scores and betting odds
 
 **AS AN NBA ENTHUSIAST…**
-	…I WANT to see a minimal collection of all the NBA games and betting odds for every
-game each night…
+	…I WANT to see a minimal collection of all the NBA games and scores and direct links to the betting odds for every
+	game each night…
 
-…SO THAT I can make an educated choice about potential bets.
+	…SO THAT I can make an educated choice about potential bets.
 
 **ACCEPTANCE CRITERIA:**
-WHEN I want game information,
+	WHEN I want game information or random NBA basketball gif
 
-GIVEN I click on a game scoreboard,
+	GIVEN I click on the random gif generator button
 
-THEN each frame will display line-ups, standings, live scores, and betting odds
+	THEN the frames will show live scores and a random gif
 
 **APIS USED:** 
 API-Sports (Api-Basketball) + GIPHY
 
 **BREAKDOWN:**  
-A live scoreboard of all games of current date - when a specific game is clicked on, it opens in greater detail specifics about that game including betting odds and lineups.  Also, a pretty neat random gif relating to the teams playing will show up.
+A live scoreboard of all NBA games of the current date and a pretty neat random NBA basketball related gif will show up when the 'Random Gif' button is pressed.
+There are links directly to NBA basketball odds on several popular betting websites at the bottom of the page.
