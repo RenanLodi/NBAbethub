@@ -1,5 +1,9 @@
 var currentDate = dayjs().format('YYYY-MM-DD');
+var dateDisplay = dayjs().format('MM/DD/YYYY');
 var liveScores = document.querySelector("#live-scores");
+var todayDate = document.querySelector("#current-date");
+
+// todayDate.textContent = dateDisplay;
 
 // Get All NBA Basketball games data
 function getGames(){
@@ -68,7 +72,7 @@ function getGifApi(){
 
     .catch(err => {
         console.log(err);
-        
+
     });
 
 }
