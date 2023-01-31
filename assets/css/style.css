@@ -5,10 +5,9 @@
   
   body {
     font-family: 'Lora', serif;
-    /* background-image: url(https://images.unsplash.com/photo-1563506644863-444710df1e03?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTN8fHxlbnwwfHx8fA%3D%3D&w=1000&q=80); */
     background-image: url(../images/hardwood.jpg);
     background-size: auto;
-    height: 100vh;
+    min-height: 100vh;
   }
   .header {
     background-color: darkgray;
@@ -30,6 +29,7 @@
     display: flex;
     justify-content: center;
     margin-left: auto;
+    margin-bottom: 260px;
   }
 
   .row .col.s12 {
@@ -42,6 +42,18 @@
 
   }
 
+  li {
+    list-style-type: none;
+  }
+
+  nav {
+    background:rgba(255, 255, 255, 0);
+  }
+
+  .nav-wrapper{
+    justify-content: space-evenly;
+
+  }
   .column {
     float: left;
     width: 30%;
@@ -67,7 +79,7 @@
 
   }
   .row:after {
-    content: "";
+    content: none;
     display: table;
     clear: both;
   }
